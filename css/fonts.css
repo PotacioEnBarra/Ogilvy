@@ -1,13 +1,59 @@
-@font-face {
-    font-family: 'Oswald-SemiBold';
-    src: url('fonts/Oswald/Oswald-SemiBold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
+/* Oswald */
 
-  @font-face {
+@font-face {
+      font-family: 'Oswald-SemiBold';
+      src: url('fonts/Oswald/Oswald-SemiBold.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
       font-family: 'Oswald-Medium';
       src: url('fonts/Oswald/Oswald-Medium.ttf') format('truetype');
       font-weight: normal;
       font-style: normal;
-    }
+}
+
+@font-face {
+      font-family: 'Oswald-Bold';
+      src: url('fonts/Oswald/Oswald-Bold.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+}
+
+
+/* Krub */
+
+@font-face {
+      font-family: 'Krub-Bold';
+      src: url('fonts/Krub/Krub-Bold.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+      font-family: 'Krub-SemiBold';
+      src: url('fonts/Krub/Krub-SemiBold.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+      font-family: 'Krub-Regular';
+      src: url('fonts/Krub/Krub-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+      font-family: 'Krub-Light';
+      src: url('fonts/Krub/Krub-Light.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+      font-family: 'Krub-Medium';
+      src: url('fonts/Krub/Krub-Medium.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+}
