@@ -1,0 +1,257 @@
+.slider {
+    width: 100%;
+    height: 686px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+}
+
+.prev-btn {
+    top: 749px;
+    left: 380px;
+    background-color: transparent;
+    border: none;
+}
+
+.next-btn {
+    right: 668px;
+    top: 749px;
+    background-color: transparent;
+    border: none;
+}
+
+/* Carousel content left */
+
+.carousel-left {
+    width: 33.3%;
+}
+
+p.carousel-left-text.industry-ui {
+    font-family: 'Krub-Bold';
+    font-size: 140px;
+    color: #ffffff;
+}
+
+p.carousel-left-text-purple {
+    font-family: 'Krub-Bold';
+    font-size: 140px;
+    color: #a460f9;
+}
+
+p.carousel-left-text.industry-beginner {
+    font-family: 'Krub-Regular';
+    color: #ffffff;
+    font-size: 40px;
+}
+
+p.carousel-left-text.industry-s {
+    font-family: 'Krub-Bold';
+    color: #ffffff;
+    font-size: 40px;
+}
+
+p.carousel-left-text.industry-pro {
+    font-family: 'Krub-Bold';
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 21px;
+}
+
+.carousel-left-text-square {
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+}
+
+.carousel-left-text-container-mc01 {
+    display: flex;
+    padding-top: 78px;
+    padding-left: 46px;
+}
+
+.carousel-left-text-container-mc02 {
+    display: flex;
+    width: 100%;
+}
+
+.carousel-left-text-container-mc02-1 {
+    padding-top: 71px;
+    width: 263px;
+    height: 297px;
+    display: flex;
+    letter-spacing: 6px;
+    -webkit-transform: rotate(-90deg);
+}
+
+.carousel-left-text-container-mc03 {
+    padding-top: 154px;
+    display: flex;
+}
+
+.carousel-left-text.industry-pro-container {
+    padding-left: 12px;
+    width: 127px;
+    overflow: hidden;
+}
+
+/* Carousel content center */
+
+
+.carousel-center {
+    padding-top: 40px;
+    width: 33.3%;
+}
+
+
+
+.slide-content {
+    display: flex;
+    height: 686px;
+}
+
+
+/* Carousel content right */
+
+.carousel-right {
+    width: 33.3%;
+    padding-top: 99px;
+}
+
+.carousel-right-edition-container {
+    border: 2px solid #ffffff;
+    width: 180px;
+    height: 100px;
+    text-align: center;
+    padding: 14px 57px 22px 25px;
+}
+
+p.carousel-right-edition-text {
+    font-family: 'Krub-Regular';
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+p.carousel-right-edition-text-2022 {
+    font-family: 'Krub-Bold';
+    font-size: 33px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.carousel-right-edition {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -3px;
+}
+
+p.carousel-right-text-title {
+    font-family: 'Krub-SemiBold';
+    color: #ffffff;
+    font-size: 21px;
+}
+
+.carousel-right-container-text-title {
+    width: 337px;
+    padding-left: 48px;
+    padding-top: 65px;
+}
+
+p.carousel-right-text-description {
+    font-family: 'Krub-SemiBold';
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 26px;
+}
+
+.carousel-right-container-text-description {
+    padding-left: 48px;
+    padding-top: 15px;
+    width: 339px;
+}
+
+.carousel-right-buttons {
+    display: flex;
+    padding-left: 44px;
+    padding-top: 38px;
+}
+
+a.btn-carousel-right {
+    text-decoration: none;
+    width: 127px;
+    height: 47px;
+    background-color: #a460f9;
+    text-align: center;
+    padding-top: 11px;
+}
+
+p.btn-carousel-right-text {
+    font-family: 'Krub-Bold';
+    color: #ffffff;
+}
+
+a.btn-carousel-right-read {
+    text-decoration: none;
+    padding-left: 23px;
+    letter-spacing: -1px;
+    padding-top: 15px;
+}
+
+p.btn-carousel-right-read-text {
+    font-family: 'Krub-Bold';
+    color: #ffffff;
+}
+.slider-bottom {display: flex;padding-top: 75px;width: 100%;height: 154px;}
+
+.slider-bottom-container {
+    width: 33.3%;
+    display: flex;
+}
+
+p.slider-bottom-container-industry-01-text {
+    font-family: 'Krub-Bold';
+    color: #a460f9;
+    font-size: 45px;
+}
+
+p.slider-bottom-container-industry-02-text {
+    font-family: 'Oswald-Medium';
+    color: #ffffff;
+    font-size: 53px;
+    letter-spacing: -3px;
+}
+
+p.slider-bottom-container-industry-02-text-01 {
+    font-family: 'Krub-Regular';
+    font-size: 24px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+p.slider-bottom-container-industry-02-text-02 {
+    font-family: 'Krub-SemiBold';
+    font-size: 24px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
