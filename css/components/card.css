@@ -1,0 +1,52 @@
+.find-course-card {
+    display: flex;
+    margin-top: 105px;
+    justify-content: space-evenly;
+}
+.find-course-card-course {
+    height: 377px;
+    width: 295px;
+    border: #ffffff 4px solid;
+}
+
+.find-course-card-course-square {
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+p.find-course-card-course-square-text {
+    font-family: 'Krub-Bold';
+    font-size: 21px;
+}
+.find-course-card-course-title {
+    display: flex;
+    width: 100%;
+    margin-top: 28px;
+    justify-content: center;
+}
+
+p.find-course-card-course-title-text-01 {
+    font-family: 'Krub-SemiBold';
+    color: #ffffff;
+    font-size: 35px;
+    margin-right: 9px;
+}
+
+p.find-course-card-course-title-text-02 {
+    font-family: 'Krub-SemiBold';
+    color: #aa84f9;
+    font-size: 35px;
+}
+p.find-course-card-course-text {
+    font-family: 'Krub-SemiBold';
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.find-course-card-course-description {padding-left: 38px;padding-right: 38px;text-align: center;margin-top: 36px;}
