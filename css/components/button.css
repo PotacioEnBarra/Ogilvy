@@ -1,0 +1,31 @@
+a.btn-primary-header {
+    padding-top: 10px;
+    text-align: center;
+    width: 87px;
+    height: 46px;
+    text-decoration: none;
+}
+
+a.btn-primary-signin {
+    padding-top: 5px;
+    text-align: center;
+    width: 98px;
+    height: 33px;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-primary-header-text {
+    font-family: 'Oswald-SemiBold';
+    font-style: normal;
+    font-size: 17px;
+    color: #ffffff;
+
+}
+
+.btn-primary-signin-text {
+    font-family:  'Oswald-Medium';
+    font-style: normal;
+    font-size: 17px;
+    color: #181818;
+}
