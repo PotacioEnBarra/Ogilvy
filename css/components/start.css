@@ -58,3 +58,87 @@ p.start-now-right-title-text {
 .start-now-right-title {
     text-align: center;
 }
+
+p.what-users-think-card-title-text {
+    font-family: 'Krub-Bold';
+    color: #aeaeae;
+    font-size: 18px;
+}
+
+.what-users-think-card {
+    text-align: center;
+    width: 397px;
+    height: 468px;
+}
+
+.what-users-think-card-container {
+    display: flex;
+    margin-top: 61px;
+    justify-content: space-evenly;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+p.what-users-think-card-description-text {
+    font-family: 'Krub-SemiBold';
+    font-size: 12px;
+    color: #aeaeae;
+    line-height: 21px;
+}
+
+.what-users-think-title {
+    text-align: center;
+}
+
+p.what-users-think-title-01-text {
+    font-family: 'Krub-Bold';
+    color: #ffffff;
+    font-size: 97px;
+}
+
+p.what-users-think-title-02-text {
+    font-family: 'Krub-Regular';
+    color: #aa84f9;
+    font-size: 49px;
+}
+
+.what-users-think-title-02 {
+    margin-top: -29px;
+}
+
+.what-users-think-card-valoration {
+    margin-top: 30px;
+}
+
+.what-users-think-card-title {
+    margin-top: 14px;
+}
+
+.what-users-think-card-description {
+    /* width: 291px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.what-users-think-card-description-icon-01 {
+    margin-left: -246px;
+    margin-top: 10px;
+}
+.what-users-think-card-description-icon-02 {
+    margin-left: 226px;
+    margin-top: -11px;
+}
+.what-users-think-card-description-text-container {
+    width: 59%;
+    margin-left: 82px;
+}
+.arrow-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+.arrow-container-01 {
+    margin-right: 131px;
+}
