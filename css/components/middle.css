@@ -1,6 +1,7 @@
+
 .middle-content {
     width: 100%;
-    height: 810px;
+    height: 324px;
 }
 
 .middle-content-industry-01 {
@@ -44,6 +45,10 @@ p.middle-content-industry-01-accept-text {
     background-size: contain;
     background-position: center;
     position: relative;
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    flex-direction: column;
 }
 
 p.middle-content-industry-01-new-text {
@@ -54,7 +59,7 @@ p.middle-content-industry-01-new-text {
 .middle-content-industry-02 {
     display: flex;
     justify-content: center;
-    padding-top: 73px;
+    padding-top: 3%;
 }
 
 p.middle-content-industry-02-explore-text {
@@ -87,3 +92,70 @@ p.middle-content-industry-02-about-text {
 .middle-content-industry-01-accept-container {
     width: 60%;
 }
+
+/* Dispositivos móviles */
+@media (max-width: 480px) {
+    /* Estilos para smartphones pequeños */
+    p.middle-content-industry-01-accept-text {
+        font-size: 27px;
+    }
+    p.middle-content-industry-01-new-text {
+        font-size: 27px;
+    }
+    p.middle-content-industry-01-skills-text {
+        font-size: 9px;
+    }
+    p.middle-content-industry-01-discover-text {
+        font-size: 9px;
+    }
+    p.middle-content-industry-02-explore-text {
+        font-size: 27px;
+    }
+    p.middle-content-industry-02-about-text {
+        font-size: 27px;
+
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    /* Estilos para smartphones estándar */
+    p.middle-content-industry-01-accept-text {
+        font-size: 47px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para smartphones grandes */
+    p.middle-content-industry-01-accept-text {
+        font-size: 57px;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Estilos para tablets */
+    p.middle-content-industry-01-accept-text {
+        font-size: 67px;
+    }
+  }
+  
+  /* Pantallas de escritorio */
+  @media (min-width: 1200px) and (max-width: 1439px) {
+    /* Estilos para pantallas pequeñas */
+    p.middle-content-industry-01-accept-text {
+        font-size: 77px;
+    }
+  }
+  
+  @media (min-width: 1440px) and (max-width: 1679px) {
+    /* Estilos para pantallas medianas */
+    p.middle-content-industry-01-accept-text {
+        font-size: 87px;
+    }
+  }
+  
+  @media (min-width: 1680px) {
+    /* Estilos para pantallas grandes */
+    p.middle-content-industry-01-accept-text {
+        font-size: 87px;
+    }
+  }

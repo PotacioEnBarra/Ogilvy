@@ -218,3 +218,52 @@ p.slider-bottom-container-industry-02-text-02 {
 .slider-bottom-container-industry-02 {
     padding-left: 5px;
 }
+
+/* Dispositivos móviles */
+@media (max-width: 480px) {
+    /* Estilos para smartphones pequeños */
+    p.slider-bottom-container-industry-01-text {
+        font-size: 14px;
+    }
+    p.slider-bottom-container-industry-02-text {
+
+        font-size: 16px;
+    }
+    p.slider-bottom-container-industry-02-text-01 {
+        font-size: 12px;
+    }
+    p.slider-bottom-container-industry-02-text-02 {
+        font-size: 12px;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    /* Estilos para smartphones estándar */
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para smartphones grandes */
+
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Estilos para tablets */
+
+  }
+  
+  /* Pantallas de escritorio */
+  @media (min-width: 1200px) and (max-width: 1439px) {
+    /* Estilos para pantallas pequeñas */
+
+  }
+  
+  @media (min-width: 1440px) and (max-width: 1679px) {
+    /* Estilos para pantallas medianas */
+
+  }
+  
+  @media (min-width: 1680px) {
+    /* Estilos para pantallas grandes */
+
+  }
