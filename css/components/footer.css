@@ -1,0 +1,145 @@
+footer.footer-container {
+    width: 100%;
+    height: 740px;
+    display: flex;
+    padding-top: 242px;
+    padding-left: 58px;
+}
+
+p.footer-container-title-text {
+    font-family: 'Krub-Bold';
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+.footer-container-left {
+    width: 22%;
+}
+
+.footer-container-center {
+    padding-left: 35px;
+}
+
+p.footer-container-item-text {
+    font-family: 'Krub-Medium';
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.footer-container-title {
+    margin-bottom: 33px;
+}
+
+.footer-container-item {
+    line-height: 41px;
+}
+
+.footer-container-right {
+    margin-left: 244px;
+    text-align: right;
+}
+
+.footer-container-right-title {
+    width: 349px;
+    margin-left: 179px;
+    margin-bottom: 55px;
+}
+
+p.footer-container-right-title-text {
+    font-family: 'Krub-Medium';
+    color: #ffffff;
+    font-size: 33px;
+}
+
+input.footer-container-right-input {
+    width: 94%;
+    height: 67px;
+    background-color: transparent;
+    border: #ffffff 3px solid;
+    color: #ffffff;
+    padding-left: 16px;
+    font-size: 26px;
+    font-family: 'Krub-Medium';
+}
+.social-container {
+    display: flex;
+}
+
+footer.footer-container {
+    width: 100%;
+    height: 740px;
+    display: flex;
+    padding-top: 242px;
+    padding-left: 58px;
+    background-color: #976ece;
+}
+
+p.footer-container-title-text {
+    font-family: 'Krub-Bold';
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+.footer-container-left {
+    width: 22%;
+}
+
+.footer-container-center {
+    padding-left: 35px;
+}
+
+p.footer-container-item-text {
+    font-family: 'Krub-Medium';
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.footer-container-title {
+    margin-bottom: 33px;
+}
+
+.footer-container-item {
+    line-height: 41px;
+}
+
+.footer-container-right {
+    margin-left: 244px;
+    text-align: right;
+}
+
+.footer-container-right-title {
+    width: 349px;
+    margin-left: 179px;
+    margin-bottom: 55px;
+}
+
+p.footer-container-right-title-text {
+    font-family: 'Krub-Medium';
+    color: #ffffff;
+    font-size: 33px;
+}
+
+input.footer-container-right-input {
+    width: 94%;
+    height: 67px;
+    background-color: transparent;
+    border: #ffffff 3px solid;
+    color: #ffffff;
+    padding-left: 16px;
+    font-size: 26px;
+    font-family: 'Krub-Medium';
+}
+.social-container {
+    display: flex;
+    margin-top: 53px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+p.social-container-follow-text {
+    font-family: 'Krub-Medium';
+    color: #ffffff;
+    font-size: 25px;
+}

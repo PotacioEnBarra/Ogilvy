@@ -1,0 +1,87 @@
+.about-us {
+    display: flex;
+    width: 100%;
+    height: 1063px;
+    background-image: url(../../assets/images/background-circle.png);
+    margin-top: 24px;
+}
+.about-us-left-title {
+    display: flex;
+    margin-top: 221px;
+    margin-left: 181px;
+}
+
+p.about-us-left-title-text-01 {
+    font-family: 'Krub-Bold';
+    color: #ffffff;
+    font-size: 63px;
+}
+
+p.about-us-left-title-text-02 {
+    font-family: 'Krub-Regular';
+    font-size: 63px;
+    color: #aa84f9;
+    margin-left: 25px;
+}
+
+.about-us-left {
+    width: 60%;
+}
+
+.about-us-right {
+    padding-top: 114px;
+}
+
+.about-us-left-description {
+    margin-left: 181px;
+    width: 401px;
+    margin-top: 20px;
+}
+
+.about-us-left-container {
+    margin-left: 181px;
+    margin-top: 64px;
+    padding-left: 5px;
+}
+
+p.about-us-left-description-text {
+    font-family: 'Krub-SemiBold';
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 28px;
+}
+.about-us-left-container-0-square {
+    width: 9px;
+    height: 9px;
+    background-color: #aa84f9;
+}
+
+.about-us-left-container-up {
+    display: flex;
+    width: 418px;
+    justify-content: space-between;
+}
+
+.about-us-left-container-down {
+    display: flex;
+    width: 418px;
+    justify-content: space-between;
+    margin-top: 51px;
+}
+
+p.about-us-left-container-0-text {
+    font-family: 'Krub-Bold';
+    font-size: 12px;
+    color: #ffffff;
+    margin-left: 7px;
+}
+
+.about-us-left-container-0 {
+    display: flex;
+    align-items: center;
+}
+.btn-find-course-card-course-container.btn-about {
+    justify-content: left;
+    margin-left: 183px;
+    margin-top: 73px;
+}

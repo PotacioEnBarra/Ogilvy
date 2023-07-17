@@ -1,0 +1,98 @@
+.find-course {
+    width: 100%;
+    height: 727px;
+}
+
+.find-course-title-bar {
+    margin-top: 90px;
+    height: 118px;
+    display: flex;
+    align-items: center;
+}
+
+p.find-course-title-bar-industry-01-text {
+    font-family: 'Krub-Bold';
+    font-size: 119px;
+    color: #ffffff;
+}
+
+.find-course-title-bar-industry-01 {
+    margin-left: 50px;
+}
+
+p.find-course-title-bar-industry-02-text {
+    font-family: 'Krub-Regular';
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.find-course-title-bar-industry-02 {
+    margin-left: 14px;
+    margin-top: 36px;
+}
+
+.find-course-title-bar-industry-03 {
+    margin-left: 668px;
+    display: flex;
+    margin-top: 54px;
+}
+
+.find-course-title-bar-industry-03-square {
+    height: 12px;
+    width: 12px;
+    background-color: #ffffff;
+    margin-right: 19px;
+    margin-top: 8px;
+}
+
+p.find-course-title-bar-industry-03-text {
+    font-family: 'Krub-Regular';
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+p.find-course-title-bar-industry-03-text-2022 {
+    font-family: 'Krub-Bold';
+    font-size: 33px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.find-course-title-bar-industry-03 {
+    display: flex;
+}
+
+a.btn-find-course-card-course {
+    text-decoration: none;
+    width: 127px;
+    height: 47px;
+    background-color: #a460f9;
+    text-align: center;
+    padding-top: 11px;
+}
+
+p.btn-find-course-card-course-text {
+    font-family: 'Oswald-Medium';
+    color: #ffffff;
+}
+.btn-find-course-card-course-container {
+    margin-top: 31px;
+    display: flex;
+    justify-content: center;
+}
+.find-course-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 71px;
+}
+
+p.find-course-more-title-text {
+    font-family: 'Krub-Bold';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.find-course-more-title {
+    margin-right: 83px;
+}
