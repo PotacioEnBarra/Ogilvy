@@ -1,4 +1,3 @@
-
 .start-now {
     display: flex;
     margin-top: 112px;
@@ -124,14 +123,17 @@ p.what-users-think-title-02-text {
     margin-left: -246px;
     margin-top: 10px;
 }
+
 .what-users-think-card-description-icon-02 {
     margin-left: 226px;
     margin-top: -11px;
 }
+
 .what-users-think-card-description-text-container {
     width: 59%;
     margin-left: 82px;
 }
+
 .arrow-container {
     width: 100%;
     display: flex;
