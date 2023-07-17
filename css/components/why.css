@@ -1,9 +1,24 @@
 .why-us {
     height: 773px;
-    width: 100%;
-    /* background-image: url(../../assets/images/backgroud-explore.png); */
-    margin-top: 47px;
+    background-image: url(../../assets/images/backgroud-explore.png);
     display: flex;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    padding-left: 3%;
+}
+.why-us-left-container-img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../../assets/images/person-03.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
 }
 
 p.why-us-right-description-text {
@@ -13,10 +28,7 @@ p.why-us-right-description-text {
     line-height: 25px;
 }
 
-.why-us-left {
-    margin-top: 28px;
-    margin-left: 53px;
-}
+.why-us-left {width: 57%;height: 100%;}
 
 .why-us-right-title {
     display: flex;
@@ -37,15 +49,13 @@ p.why-us-right-text-02 {
 }
 
 .why-us-right {
-    margin-left: 161px;
+    width: 60%;
+    padding-left: 10%;
 }
 
 .why-us-right-description {
     margin-top: 23px;
-    width: 378px;
+    width: 56%;
+    text-align: justify;
 }
 
-.btn-find-course-card-course-container.btn-why {
-    justify-content: left;
-    margin-top: 41px;
-}

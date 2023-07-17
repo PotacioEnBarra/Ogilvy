@@ -1,10 +1,15 @@
 .about-us {
     display: flex;
-    width: 100%;
     height: 1063px;
     background-image: url(../../assets/images/background-circle.png);
     margin-top: 24px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    position: relative;
 }
+
 .about-us-left-title {
     display: flex;
     margin-top: 221px;
@@ -28,13 +33,11 @@ p.about-us-left-title-text-02 {
     width: 60%;
 }
 
-.about-us-right {
-    padding-top: 114px;
-}
+.about-us-right {width: 23%;height: 100%;}
 
 .about-us-left-description {
     margin-left: 181px;
-    width: 401px;
+    width: 42%;
     margin-top: 20px;
 }
 
@@ -50,6 +53,7 @@ p.about-us-left-description-text {
     font-size: 16px;
     line-height: 28px;
 }
+
 .about-us-left-container-0-square {
     width: 9px;
     height: 9px;
@@ -58,13 +62,13 @@ p.about-us-left-description-text {
 
 .about-us-left-container-up {
     display: flex;
-    width: 418px;
+    width: 57%;
     justify-content: space-between;
 }
 
 .about-us-left-container-down {
     display: flex;
-    width: 418px;
+    width: 57%;
     justify-content: space-between;
     margin-top: 51px;
 }
@@ -80,8 +84,14 @@ p.about-us-left-container-0-text {
     display: flex;
     align-items: center;
 }
-.btn-find-course-card-course-container.btn-about {
-    justify-content: left;
-    margin-left: 183px;
-    margin-top: 73px;
+
+.about-us-right-container-img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../../assets/images/person-02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
 }
