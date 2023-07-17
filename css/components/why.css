@@ -1,0 +1,51 @@
+.why-us {
+    height: 773px;
+    width: 100%;
+    /* background-image: url(../../assets/images/backgroud-explore.png); */
+    margin-top: 47px;
+    display: flex;
+}
+
+p.why-us-right-description-text {
+    font-family: 'Krub-SemiBold';
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.why-us-left {
+    margin-top: 28px;
+    margin-left: 53px;
+}
+
+.why-us-right-title {
+    display: flex;
+    margin-top: 131px;
+}
+
+p.why-us-right-text-01 {
+    font-family: 'Krub-Bold';
+    color: #ffffff;
+    font-size: 63px;
+}
+
+p.why-us-right-text-02 {
+    font-family: 'Krub-Regular';
+    font-size: 63px;
+    color: #aa84f9;
+    margin-left: 25px;
+}
+
+.why-us-right {
+    margin-left: 161px;
+}
+
+.why-us-right-description {
+    margin-top: 23px;
+    width: 378px;
+}
+
+.btn-find-course-card-course-container.btn-why {
+    justify-content: left;
+    margin-top: 41px;
+}
