@@ -170,3 +170,48 @@ a.btn-find-course-card-course.form {
 .btn-slider-right {
     width: 5%;
 }
+
+
+/* Dispositivos móviles */
+@media (max-width: 480px) {
+    /* Estilos para smartphones pequeños */
+    .btn-primary-header-text {
+
+        font-size: 8px;
+
+    }
+    .btn-primary-signin-text {
+        font-size: 8px;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    /* Estilos para smartphones estándar */
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para smartphones grandes */
+
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Estilos para tablets */
+
+  }
+  
+  /* Pantallas de escritorio */
+  @media (min-width: 1200px) and (max-width: 1439px) {
+    /* Estilos para pantallas pequeñas */
+
+  }
+  
+  @media (min-width: 1440px) and (max-width: 1679px) {
+    /* Estilos para pantallas medianas */
+
+  }
+  
+  @media (min-width: 1680px) {
+    /* Estilos para pantallas grandes */
+
+  }
