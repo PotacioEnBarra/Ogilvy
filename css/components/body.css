@@ -3,10 +3,7 @@
     margin: 0;
     padding: 0;
 }
-body{
-    width: 1440px;
-    height: 8000px;
-    background-image: url(../../assets/images/background-test.png);
-    background-repeat: no-repeat;
+html, body {
     background-color: #111111;
 }
+    

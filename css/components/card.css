@@ -5,12 +5,12 @@
 }
 .find-course-card-course {
     height: 377px;
-    width: 295px;
+    width: 20%;
     border: #ffffff 4px solid;
 }
 
 .find-course-card-course-square {
-    width: 44px;
+    width: 19%;
     height: 44px;
     background-color: #ffffff;
     text-align: center;

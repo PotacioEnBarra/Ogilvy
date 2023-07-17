@@ -18,6 +18,7 @@ p.find-course-title-bar-industry-01-text {
 
 .find-course-title-bar-industry-01 {
     margin-left: 50px;
+    width: 23%;
 }
 
 p.find-course-title-bar-industry-02-text {
@@ -27,13 +28,12 @@ p.find-course-title-bar-industry-02-text {
 }
 
 .find-course-title-bar-industry-02 {
+    width: 24%;
     margin-left: 14px;
     margin-top: 36px;
 }
 
 .find-course-title-bar-industry-03 {
-    margin-left: 668px;
-    display: flex;
     margin-top: 54px;
 }
 
@@ -61,26 +61,11 @@ p.find-course-title-bar-industry-03-text-2022 {
 
 .find-course-title-bar-industry-03 {
     display: flex;
+    width: 53%;
+    justify-content: flex-end;
+    padding-right: 44px;
 }
 
-a.btn-find-course-card-course {
-    text-decoration: none;
-    width: 127px;
-    height: 47px;
-    background-color: #a460f9;
-    text-align: center;
-    padding-top: 11px;
-}
-
-p.btn-find-course-card-course-text {
-    font-family: 'Oswald-Medium';
-    color: #ffffff;
-}
-.btn-find-course-card-course-container {
-    margin-top: 31px;
-    display: flex;
-    justify-content: center;
-}
 .find-course-more {
     display: flex;
     justify-content: center;
