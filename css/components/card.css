@@ -103,31 +103,164 @@ p.find-course-card-course-text {
 
 @media (min-width: 481px) and (max-width: 767px) {
     /* Estilos para smartphones estándar */
-
+    p.find-course-card-course-square-text{
+        font-size: 10px;
+    }
+    p.find-course-card-course-title-text-01{
+        font-size: 14px;
+        margin-right: 7px;
+    }
+    p.find-course-card-course-title-text-02{
+        font-size: 14px;
+    }
+    p.find-course-card-course-text{
+        font-size: 6px;
+        line-height: 12px;
+    }
+    .find-course-card {
+        margin-top: 28px;
+    }
+    .find-course-card-course {
+        height: 156px;
+        border: #FFFFFF 1px solid;
+    }
+    .find-course-card-course-square {
+        width: 16%;
+        height: 18px;
+        padding-top: 3px;
+        margin-top: -1px;
+        margin-left: -1px;
+    }
+    .find-course-card-course-title {
+        margin-top: 9px;
+    }
+    .find-course-card-course-description {
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-top: 17px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     /* Estilos para smartphones grandes */
-
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    /* Estilos para tablets */
-
+    p.find-course-card-course-square-text{
+        font-size: 13px;
+    }
+    p.find-course-card-course-title-text-01{
+        font-size: 21px;
+        margin-right: 7px;
+    }
+    p.find-course-card-course-title-text-02{
+        font-size: 21px;
+    }
+    p.find-course-card-course-text{
+        font-size: 8px;
+        line-height: 19px;
+    }
+    .find-course-card {
+        margin-top: 60px;
+    }
+    .find-course-card-course {
+        height: 218px;
+        border: #FFFFFF 2px solid;
+    }
+    .find-course-card-course-square {
+        width: 16%;
+        height: 27px;
+        padding-top: 5px;
+        margin-top: -1px;
+        margin-left: -1px;
+    }
+    .find-course-card-course-title {
+        margin-top: 9px;
+    }
+    .find-course-card-course-description {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 17px;
+    }
 }
 
 /* Pantallas de escritorio */
-@media (min-width: 1200px) and (max-width: 1439px) {
-    /* Estilos para pantallas pequeñas */
+@media (min-width: 992px) and (max-width: 1679px) {
+    /* Estilos para pantallas estandar */
 
-}
-
-@media (min-width: 1440px) and (max-width: 1679px) {
-    /* Estilos para pantallas medianas */
-
+    p.find-course-card-course-square-text {
+        font-size: 14px;
+    }
+    p.find-course-card-course-title-text-01 {
+        font-size: 21px;
+        margin-right: 14px;
+    }
+    p.find-course-card-course-title-text-02 {
+        font-size: 21px;
+    }
+    p.find-course-card-course-text {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .find-course-card {
+        margin-top: 75px;
+    }
+    .find-course-card-course {
+        height: 209px;
+        border: #ffffff 1px solid;
+    }
+    .find-course-card-course-square {
+        width: 16%;
+        height: 27px;
+        padding-top: 4px;
+        margin-top: -1px;
+        margin-left: -1px;
+    }
+    .find-course-card-course-title {
+        margin-top: 10px;
+    }
+    .find-course-card-course-description {
+        padding-left: 22px;
+        padding-right: 22px;
+        margin-top: 22px;
+    }
 }
 
 @media (min-width: 1680px) {
     /* Estilos para pantallas grandes */
 
+
+    p.find-course-card-course-square-text {
+        font-size: 14px;
+    }
+    p.find-course-card-course-title-text-01 {
+        font-size: 21px;
+        margin-right: 14px;
+    }
+    p.find-course-card-course-title-text-02 {
+        font-size: 21px;
+    }
+    p.find-course-card-course-text {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .find-course-card {
+        margin-top: 75px;
+    }
+    .find-course-card-course {
+        height: 209px;
+        border: #ffffff 1px solid;
+    }
+    .find-course-card-course-square {
+        width: 16%;
+        height: 27px;
+        padding-top: 4px;
+        margin-top: -1px;
+        margin-left: -1px;
+    }
+    .find-course-card-course-title {
+        margin-top: 10px;
+    }
+    .find-course-card-course-description {
+        padding-left: 22px;
+        padding-right: 22px;
+        margin-top: 22px;
+    }
 }

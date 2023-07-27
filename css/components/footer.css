@@ -252,31 +252,303 @@ p.social-container-follow-text {
 
 @media (min-width: 481px) and (max-width: 767px) {
     /* Estilos para smartphones estándar */
-
+    footer.footer-container {
+        width: 100%;
+        height: 255px;
+        padding-top: 70px;
+        padding-left: 21px;
+    }
+    .footer-container-left {
+        width: 20%;
+    }
+    .footer-container-title {
+        margin-bottom: 8px;
+    }
+    p.footer-container-title-text {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .footer-container-item {
+        line-height: 14px;
+    }
+    p.footer-container-item-text {
+        font-size: 9px;
+    }
+    .footer-container-center {
+        padding-left: 25px;
+        width: 35%;
+    }
+    .footer-container-right {
+        width: 45%;
+        padding-right: 15px;
+    }
+    .footer-container-right-title {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding-left: 46px;
+    }
+    p.footer-container-right-title-text {
+        font-size: 12px;
+    }
+    input.footer-container-right-input {
+        width: 94%;
+        height: 23px;
+        border: #ffffff 1px solid;
+        padding-left: 16px;
+        font-size: 9px;
+    }
+    .social-container {
+        margin-top: 21px;
+        margin-left: 0px;
+    }
+    p.social-container-follow-text {
+        font-size: 9px;
+    }
+    .social-container-facebook {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .social-container-instagram {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .social-container-youtube {
+        width: 20px;
+        height: 20px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     /* Estilos para smartphones grandes */
 
-}
+    footer.footer-container {
+        width: 100%;
+        height: 367px;
+        padding-top: 70px;
+        padding-left: 30px;
+    }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    /* Estilos para tablets */
+    .footer-container-left {
+        width: 20%;
+    }
 
+    .footer-container-title {
+        margin-bottom: 10px;
+    }
+
+    p.footer-container-title-text {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .footer-container-item {
+        line-height: 29px;
+    }
+
+    p.footer-container-item-text {
+        font-size: 15px;
+    }
+
+    .footer-container-center {
+        padding-left: 30px;
+        width: 35%;
+    }
+
+    .footer-container-right {
+        width: 45%;
+        padding-right: 25px;
+    }
+
+    .footer-container-right-title {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 34px;
+        padding-left: 56px;
+    }
+
+    p.footer-container-right-title-text {
+        font-size: 22px;
+    }
+
+    input.footer-container-right-input {
+        width: 94%;
+        height: 26px;
+        border: #ffffff 1px solid;
+        padding-left: 18px;
+        font-size: 10px;
+    }
+
+    .social-container {
+        margin-top: 42px;
+        margin-left: 0px;
+    }
+
+    p.social-container-follow-text {
+        font-size: 18px;
+    }
+
+    .social-container-facebook,
+    .social-container-instagram,
+    .social-container-youtube {
+        width: 25px;
+        height: 25px;
+    }
 }
 
 /* Pantallas de escritorio */
-@media (min-width: 1200px) and (max-width: 1439px) {
-    /* Estilos para pantallas pequeñas */
+@media (min-width: 992px) and (max-width: 1679px) {
+    /* Estilos para pantallas estandar */
 
-}
+    footer.footer-container {
+        width: 100%;
+        height: 489px;
+        padding-top: 100px;
+        padding-left: 46px;
+    }
 
-@media (min-width: 1440px) and (max-width: 1679px) {
-    /* Estilos para pantallas medianas */
+    .footer-container-left {
+        width: 20%;
+    }
 
+    .footer-container-title {
+        margin-bottom: 15px;
+    }
+
+    p.footer-container-title-text {
+        font-size: 34px;
+        letter-spacing: 2px;
+    }
+
+    .footer-container-item {
+        line-height: 38px;
+    }
+
+    p.footer-container-item-text {
+        font-size: 20px;
+    }
+
+    .footer-container-center {
+        padding-left: 40px;
+        width: 35%;
+    }
+
+    .footer-container-right {
+        width: 45%;
+        padding-right: 30px;
+    }
+
+    .footer-container-right-title {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 55px;
+        padding-left: 78px;
+    }
+
+    p.footer-container-right-title-text {
+        font-size: 30px;
+    }
+
+    input.footer-container-right-input {
+        width: 94%;
+        height: 32px;
+        border: #ffffff 1px solid;
+        padding-left: 21px;
+        font-size: 12px;
+    }
+
+    .social-container {
+        margin-top: 62px;
+        margin-left: 0px;
+    }
+
+    p.social-container-follow-text {
+        font-size: 24px;
+    }
+
+    .social-container-facebook,
+    .social-container-instagram,
+    .social-container-youtube {
+        width: 60px;
+        height: 60px;
+    }
 }
 
 @media (min-width: 1680px) {
     /* Estilos para pantallas grandes */
 
+    footer.footer-container {
+        width: 100%;
+        height: 489px;
+        padding-top: 100px;
+        padding-left: 46px;
+    }
+
+    .footer-container-left {
+        width: 20%;
+    }
+
+    .footer-container-title {
+        margin-bottom: 15px;
+    }
+
+    p.footer-container-title-text {
+        font-size: 34px;
+        letter-spacing: 2px;
+    }
+
+    .footer-container-item {
+        line-height: 38px;
+    }
+
+    p.footer-container-item-text {
+        font-size: 20px;
+    }
+
+    .footer-container-center {
+        padding-left: 40px;
+        width: 35%;
+    }
+
+    .footer-container-right {
+        width: 45%;
+        padding-right: 30px;
+    }
+
+    .footer-container-right-title {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 55px;
+        padding-left: 78px;
+    }
+
+    p.footer-container-right-title-text {
+        font-size: 30px;
+    }
+
+    input.footer-container-right-input {
+        width: 94%;
+        height: 32px;
+        border: #ffffff 1px solid;
+        padding-left: 21px;
+        font-size: 12px;
+    }
+
+    .social-container {
+        margin-top: 62px;
+        margin-left: 0px;
+    }
+
+    p.social-container-follow-text {
+        font-size: 24px;
+    }
+
+    .social-container-facebook,
+    .social-container-instagram,
+    .social-container-youtube {
+        width: 60px;
+        height: 60px;
+    }
 }
