@@ -29,6 +29,7 @@
     height: 1123px;
     width: 100%;
     margin-top: 4%;
+    overflow: hidden;
 }
 
 p.form-suscribe-title-text {
@@ -45,6 +46,9 @@ p.form-suscribe-subtitle-text {
 
 .form-suscribe-description {
     width: 100%;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 8px;
 }
 
 
@@ -53,6 +57,7 @@ p.form-suscribe-description-text {
     color: #ffffff;
     line-height: 29px;
     letter-spacing: 1px;
+    font-size: 19px;
 }
 
 .form-suscribe-input {
@@ -93,25 +98,124 @@ input.form-suscribe-input-message {
     font-size: 18px;
     color: #ffffff;
     padding: 0px 20px 98px 37px;
-  }
-  
-  input.form-suscribe-input-message::placeholder {
+}
+
+input.form-suscribe-input-message::placeholder {
     font-family: 'Krub-Bold';
     color: #6a6a6a;
-  }
-  input.form-suscribe-input-mail::placeholder {
+}
+
+input.form-suscribe-input-mail::placeholder {
     font-family: 'Krub-Bold';
     color: #6a6a6a;
-  }
-  input.form-suscribe-input-name::placeholder {
+}
+
+input.form-suscribe-input-name::placeholder {
     font-family: 'Krub-Bold';
     color: #6a6a6a;
-  }
-  
-  input.form-suscribe-input-message:focus {
+}
+
+input.form-suscribe-input-message:focus {
     outline: none;
     border-color: #5f39b8;
-  }
+}
 
+/* Dispositivos móviles */
+@media (max-width: 480px) {
 
-   
+    /* Estilos para smartphones pequeños */
+    .form-suscribe {
+        height: 293px;
+        margin-top: 12%;
+    }
+
+    .form-suscribe-left {
+        width: 70%;
+        height: 100%;
+    }
+
+    .form-suscribe-right {
+        width: 39%;
+        padding-top: 7px;
+        margin-left: -54px;
+    }
+
+    p.form-suscribe-title-text {
+        font-size: 16px;
+    }
+
+    p.form-suscribe-subtitle-text {
+        font-size: 15px;
+    }
+
+    .form-suscribe-description {
+        width: 100%;
+    }
+
+    p.form-suscribe-description-text {
+        line-height: 8px;
+        letter-spacing: 0.9px;
+        font-size: 4px;
+    }
+    .form-suscribe-input {
+        height: 206px;
+        margin-top: 21px;
+    }
+    input.form-suscribe-input-name {
+        width: 95%;
+        height: 22px;
+        margin-bottom: 16px;
+        border: #9172d1 1px solid;
+        font-size: 7px;
+        padding: 3px 17px 3px 7px;
+    }
+    input.form-suscribe-input-mail {
+        width: 95%;
+        height: 22px;
+        margin-bottom: 16px;
+        background-color: transparent;
+        border: #9172d1 1px solid;
+        padding: 3px 17px 3px 9px;
+        font-size: 7px;
+    }
+    input.form-suscribe-input-message {
+        width: 95%;
+        height: 55px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        border: #9172d1 1px solid;
+        font-size: 7px;
+        padding: 9px 21px 38px 8px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Estilos para smartphones estándar */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para smartphones grandes */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Estilos para tablets */
+
+}
+
+/* Pantallas de escritorio */
+@media (min-width: 1200px) and (max-width: 1439px) {
+    /* Estilos para pantallas pequeñas */
+
+}
+
+@media (min-width: 1440px) and (max-width: 1679px) {
+    /* Estilos para pantallas medianas */
+
+}
+
+@media (min-width: 1680px) {
+    /* Estilos para pantallas grandes */
+
+}

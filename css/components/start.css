@@ -10,7 +10,12 @@ p.start-now-left-title-text {
     font-size: 20px;
 }
 
-.start-now-left-title {width: 68%;height: 64%;padding-left: 27%;padding-top: 50%;}
+.start-now-left-title {
+    width: 68%;
+    height: 64%;
+    padding-left: 27%;
+    padding-top: 50%;
+}
 
 .start-now-left {
     width: 13%;
@@ -61,7 +66,7 @@ p.what-users-think-card-title-text {
 }
 
 .what-users-think-card {
-    text-align: center;
+    /* text-align: center; */
     width: 20%;
     height: 468px;
 }
@@ -133,10 +138,13 @@ p.what-users-think-title-02-text {
 
 .what-users-think-card-valoration {
     margin-top: 30px;
+    height: 30px;
+    width: 30px;
 }
 
 .what-users-think-card-title {
     margin-top: 14px;
+    text-align: center;
 }
 
 .what-users-think-card-description {
@@ -148,6 +156,8 @@ p.what-users-think-title-02-text {
 .what-users-think-card-description-icon-01 {
     margin-left: -188px;
     margin-top: 10px;
+    width: 100%;
+    height: 6px;
 }
 
 .what-users-think-card-description-icon-02 {
@@ -158,6 +168,7 @@ p.what-users-think-title-02-text {
 .what-users-think-card-description-text-container {
     width: 59%;
     margin-left: 56px;
+    text-align: justify;
 }
 
 .arrow-container {
@@ -168,5 +179,247 @@ p.what-users-think-title-02-text {
 }
 
 .arrow-container-01 {
-    margin-right: 131px;
+    margin-right: 42px;
+    width: 10px;
+    height: 10px;
+}
+.arrow-container-02 {
+    width: 10px;
+    height: 10px;
+}
+
+.what-users-think {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+.what-users-think-card-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.avatar-person-01 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../../assets/images/avatar-person-01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.avatar-person-02 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../../assets/images/avatar-person-02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.avatar-person-03 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../../assets/images/avatar-person-03.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.rating-bar {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../../assets/images/rating-bar.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.marks-01 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../../assets/images/marks-01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.marks-02 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../../assets/images/marks-02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.left-arrow-bold {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../../assets/images/left-arrow-bold.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.right-arrow-bold {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../../assets/images/right-arrow-bold.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+/* Dispositivos móviles */
+@media (max-width: 480px) {
+
+    /* Estilos para smartphones pequeños */
+
+    .start-now {
+        height: 224px;
+    }
+
+    .start-now-left-title {
+        width: 82%;
+        height: 100%;
+        padding-left: 17%;
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+
+    .start-now-right-title {
+        width: 82%;
+        height: 100%;
+        padding-left: 27%;
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+
+    .what-users-think {
+        height: 252px;
+    }
+
+    p.what-users-think-title-01-text {
+        font-size: 26px;
+    }
+
+    .what-users-think-title-02 {
+        margin-top: -5px;
+    }
+
+    p.what-users-think-title-02-text {
+        font-size: 14px;
+    }
+
+    .what-users-think-card-container {
+        margin-top: 24px;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .what-users-think-card {
+        width: 20%;
+        height: 468px;
+    }
+
+    .what-users-think-card-icon {
+        width: 100%;
+        height: 60px;
+    }
+
+    .what-users-think-card-title {
+        margin-top: 7px;
+    }
+
+    p.what-users-think-card-title-text {
+        font-size: 7px;
+    }
+
+    .what-users-think-card-valoration {
+        margin-top: 0px;
+        height: 30px;
+        width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .what-users-think-card-description-icon-01 {
+        margin-left: -41px;
+        margin-top: -1px;
+        width: 100%;
+        height: 6px;
+    }
+    .what-users-think-card-description-text-container {
+        width: 100%;
+        margin-left: 1px;
+    }
+    p.what-users-think-card-description-text {
+        font-size: 5px;
+        line-height: 8px;
+    }
+    .what-users-think-card-description-icon-02 {
+        margin-left: 37px;
+        margin-top: -4px;
+        width: 100%;
+        height: 6px;
+    }
+    .arrow-container {
+        margin-top: 7px;
+    }
+    .arrow-container-01 {
+        margin-right: 42px;
+        width: 20px;
+        height: 10px;
+    }
+    .arrow-container-02 {
+        width: 20px;
+        height: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Estilos para smartphones estándar */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para smartphones grandes */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Estilos para tablets */
+
+}
+
+/* Pantallas de escritorio */
+@media (min-width: 1200px) and (max-width: 1439px) {
+    /* Estilos para pantallas pequeñas */
+
+}
+
+@media (min-width: 1440px) and (max-width: 1679px) {
+    /* Estilos para pantallas medianas */
+
+}
+
+@media (min-width: 1680px) {
+    /* Estilos para pantallas grandes */
+
 }
