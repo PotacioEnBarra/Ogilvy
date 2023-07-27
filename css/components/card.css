@@ -3,6 +3,7 @@
     margin-top: 105px;
     justify-content: space-evenly;
 }
+
 .find-course-card-course {
     height: 377px;
     width: 20%;
@@ -23,6 +24,7 @@ p.find-course-card-course-square-text {
     font-family: 'Krub-Bold';
     font-size: 21px;
 }
+
 .find-course-card-course-title {
     display: flex;
     width: 100%;
@@ -42,6 +44,7 @@ p.find-course-card-course-title-text-02 {
     color: #aa84f9;
     font-size: 35px;
 }
+
 p.find-course-card-course-text {
     font-family: 'Krub-SemiBold';
     color: #ffffff;
@@ -49,4 +52,82 @@ p.find-course-card-course-text {
     line-height: 26px;
 }
 
-.find-course-card-course-description {padding-left: 38px;padding-right: 38px;text-align: center;margin-top: 36px;}
+.find-course-card-course-description {
+    padding-left: 38px;
+    padding-right: 38px;
+    text-align: center;
+    margin-top: 36px;
+}
+/* Dispositivos móviles */
+@media (max-width: 480px) {
+
+    /* Estilos para smartphones pequeños */
+    p.find-course-card-course-square-text{
+        font-size: 7px;
+    }
+    p.find-course-card-course-title-text-01{
+        font-size: 10px;
+        margin-right: 3px;
+    }
+    p.find-course-card-course-title-text-02{
+        font-size: 10px;
+    }
+    p.find-course-card-course-text{
+        font-size: 5px;
+        line-height: 7px;
+    }
+    .find-course-card {
+        margin-top: 22px;
+    }
+    .find-course-card-course {
+        height: 115px;
+        border: #ffffff 1px solid;
+    }
+    .find-course-card-course-square {
+        width: 19%;
+        height: 14px;
+        padding-top: 3px;
+        margin-top: -1px;
+        margin-left: -1px;
+    }
+    .find-course-card-course-title {
+        margin-top: 9px;
+    }
+    .find-course-card-course-description {
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-top: 5px;
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Estilos para smartphones estándar */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para smartphones grandes */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Estilos para tablets */
+
+}
+
+/* Pantallas de escritorio */
+@media (min-width: 1200px) and (max-width: 1439px) {
+    /* Estilos para pantallas pequeñas */
+
+}
+
+@media (min-width: 1440px) and (max-width: 1679px) {
+    /* Estilos para pantallas medianas */
+
+}
+
+@media (min-width: 1680px) {
+    /* Estilos para pantallas grandes */
+
+}

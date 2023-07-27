@@ -1,4 +1,3 @@
-
 .top-bar-container {
     display: flex;
     width: 100%;
@@ -8,7 +7,7 @@
 
 .top-bar-container-center {
     width: 48%;
-    height: 100px;
+    height: 100%;
     display: flex;
     padding-top: 41px;
     justify-content: space-evenly;
@@ -16,7 +15,7 @@
 
 .top-container-right {
     padding-top: 47px;
-    height: 100px;
+    height: 100%;
     width: 23%;
     display: flex;
     justify-content: space-around;
@@ -27,7 +26,8 @@
     padding-top: 16px;
     padding-left: 16px;
 }
-.logo-ogilvy{
+
+.logo-ogilvy {
     width: 100%;
     height: 100%;
     text-align: center;
@@ -37,7 +37,75 @@
     background-position: center;
     position: relative;
 }
+
 .logo-section {
     width: 100%;
     height: 80%;
+}
+
+.logo-hamburguer {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: url(../../css/icons/menu-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+/* Dispositivos móviles */
+@media (max-width: 480px) {
+
+    /* Estilos para smartphones pequeños */
+    .top-bar-container {
+        height: 49px;
+    }
+
+    .top-bar-container-center {
+        padding-top: 12px
+    }
+    .top-container-right {
+        padding-top: 19px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Estilos para smartphones pequeños */
+    .top-bar-container {
+        height: 67px;
+    }
+
+    .top-bar-container-center {
+        padding-top: 12px
+    }
+    .top-container-right {
+        padding-top: 19px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para smartphones grandes */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Estilos para tablets */
+
+}
+
+/* Pantallas de escritorio */
+@media (min-width: 1200px) and (max-width: 1439px) {
+    /* Estilos para pantallas pequeñas */
+
+}
+
+@media (min-width: 1440px) and (max-width: 1679px) {
+    /* Estilos para pantallas medianas */
+
+}
+
+@media (min-width: 1680px) {
+    /* Estilos para pantallas grandes */
+
 }
