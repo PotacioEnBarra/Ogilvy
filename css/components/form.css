@@ -259,25 +259,221 @@ input.form-suscribe-input-message:focus {
 @media (min-width: 768px) and (max-width: 991px) {
     /* Estilos para smartphones grandes */
 
+    .form-suscribe {
+        height: 599px;
+        margin-top: 10%;
+    }
+
+    .form-suscribe-left {
+        width: 55%;
+        height: 100%;
+    }
+
+    .form-suscribe-right {
+        width: 42%;
+        padding-top: 117px;
+        margin-left: -18px;
+    }
+
+    p.form-suscribe-title-text {
+        font-size: 28px;
+    }
+
+    p.form-suscribe-subtitle-text {
+        font-size: 25px;
+    }
+
+    .form-suscribe-description {
+        width: 100%;
+    }
+
+    p.form-suscribe-description-text {
+        line-height: 14px;
+        letter-spacing: 0.9px;
+        font-size: 8px;
+    }
+
+    .form-suscribe-input {
+        height: 240px;
+        margin-top: 21px;
+    }
+
+    input.form-suscribe-input-name {
+        width: 95%;
+        height: 30px;
+        margin-bottom: 16px;
+        border: #9172d1 1px solid;
+        font-size: 10px;
+        padding: 5px 20px 5px 10px;
+    }
+
+    input.form-suscribe-input-mail {
+        width: 95%;
+        height: 30px;
+        margin-bottom: 16px;
+        background-color: transparent;
+        border: #9172d1 1px solid;
+        padding: 5px 20px 5px 12px;
+        font-size: 10px;
+    }
+
+    input.form-suscribe-input-message {
+        width: 95%;
+        height: 75px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        border: #9172d1 1px solid;
+        font-size: 10px;
+        padding: 15px 30px 50px 12px;
+    }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    /* Estilos para tablets */
-
-}
 
 /* Pantallas de escritorio */
-@media (min-width: 1200px) and (max-width: 1439px) {
-    /* Estilos para pantallas pequeñas */
+@media (min-width: 992px) and (max-width: 1679px) {
+    /* Estilos para pantallas estandar */
+    .form-suscribe {
+        height: 710px;
+        margin-top: 8%;
+    }
 
-}
+    .form-suscribe-left {
+        width: 50%;
+        height: 100%;
+    }
 
-@media (min-width: 1440px) and (max-width: 1679px) {
-    /* Estilos para pantallas medianas */
+    .form-suscribe-right {
+        width: 42%;
+        padding-top: 84px;
+        margin-left: -30px;
+    }
 
+    p.form-suscribe-title-text {
+        font-size: 52px;
+    }
+
+    p.form-suscribe-subtitle-text {
+        font-size: 39px;
+    }
+
+    .form-suscribe-description {
+        width: 100%;
+        margin-top: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    p.form-suscribe-description-text {
+        line-height: 21px;
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+
+    .form-suscribe-input {
+        height: 326px;
+        margin-top: 25px;
+    }
+
+    input.form-suscribe-input-name {
+        width: 95%;
+        height: 47px;
+        margin-bottom: 20px;
+        border: #9172d1 1px solid;
+        font-size: 12px;
+        padding: 6px 24px 6px 12px;
+    }
+
+    input.form-suscribe-input-mail {
+        width: 95%;
+        height: 47px;
+        margin-bottom: 20px;
+        background-color: transparent;
+        border: #9172d1 1px solid;
+        padding: 6px 24px 6px 15px;
+        font-size: 12px;
+    }
+
+    input.form-suscribe-input-message {
+        width: 95%;
+        height: 107px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: #9172d1 1px solid;
+        font-size: 12px;
+        padding: 18px 36px 60px 15px;
+    }
 }
 
 @media (min-width: 1680px) {
     /* Estilos para pantallas grandes */
+    .form-suscribe {
+        height: 710px;
+        margin-top: 8%;
+    }
 
+    .form-suscribe-left {
+        width: 50%;
+        height: 100%;
+    }
+
+    .form-suscribe-right {
+        width: 42%;
+        padding-top: 84px;
+        margin-left: -30px;
+    }
+
+    p.form-suscribe-title-text {
+        font-size: 52px;
+    }
+
+    p.form-suscribe-subtitle-text {
+        font-size: 39px;
+    }
+
+    .form-suscribe-description {
+        width: 100%;
+        margin-top: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    p.form-suscribe-description-text {
+        line-height: 21px;
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+
+    .form-suscribe-input {
+        height: 326px;
+        margin-top: 25px;
+    }
+
+    input.form-suscribe-input-name {
+        width: 95%;
+        height: 47px;
+        margin-bottom: 20px;
+        border: #9172d1 1px solid;
+        font-size: 12px;
+        padding: 6px 24px 6px 12px;
+    }
+
+    input.form-suscribe-input-mail {
+        width: 95%;
+        height: 47px;
+        margin-bottom: 20px;
+        background-color: transparent;
+        border: #9172d1 1px solid;
+        padding: 6px 24px 6px 15px;
+        font-size: 12px;
+    }
+
+    input.form-suscribe-input-message {
+        width: 95%;
+        height: 107px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: #9172d1 1px solid;
+        font-size: 12px;
+        padding: 18px 36px 60px 15px;
+    }
 }

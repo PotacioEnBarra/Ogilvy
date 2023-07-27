@@ -503,25 +503,344 @@ p.what-users-think-title-02-text {
 @media (min-width: 768px) and (max-width: 991px) {
     /* Estilos para smartphones grandes */
 
+    .start-now {
+        height: 350px;
+        margin-top: 55px;
+    }
+
+    .start-now-left-title {
+        width: 82%;
+        height: 100%;
+        padding-left: 17%;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .start-now-right-title {
+        width: 82%;
+        height: 100%;
+        padding-left: 27%;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .what-users-think {
+        height: 380px;
+        margin-top: 50px;
+    }
+
+    p.what-users-think-title-01-text {
+        font-size: 50px;
+    }
+
+    .what-users-think-title-02 {
+        margin-top: -8px;
+    }
+
+    p.what-users-think-title-02-text {
+        font-size: 26px;
+    }
+
+    .what-users-think-card-container {
+        margin-top: 30px;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+
+    .what-users-think-card {
+        width: 33.33%;
+        height: 200px;
+    }
+
+    .what-users-think-card-icon {
+        width: 100%;
+        height: 80px;
+    }
+
+    .what-users-think-card-title {
+        margin-top: 10px;
+    }
+
+    p.what-users-think-card-title-text {
+        font-size: 12px;
+    }
+
+    .what-users-think-card-valoration {
+        margin-top: 12px;
+        height: 12px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .what-users-think-card-description-icon-01 {
+        margin-left: -60px;
+        margin-top: 17px;
+        width: 100%;
+        height: 8px;
+    }
+
+    .what-users-think-card-description-text-container {
+        width: 100%;
+        margin-left: 1px;
+        padding-left: 91px;
+        padding-right: 94px;
+    }
+
+    p.what-users-think-card-description-text {
+        font-size: 8px;
+        line-height: 13px;
+    }
+
+    .what-users-think-card-description-icon-02 {
+        margin-left: 54px;
+        margin-top: -4px;
+        width: 100%;
+        height: 8px;
+    }
+
+    .arrow-container {
+        margin-top: 15px;
+    }
+
+    .arrow-container-01 {
+        margin-right: 97px;
+        width: 35px;
+        height: 20px;
+    }
+
+    .arrow-container-02 {
+        width: 35px;
+        height: 20px;
+    }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    /* Estilos para tablets */
-
-}
 
 /* Pantallas de escritorio */
-@media (min-width: 1200px) and (max-width: 1439px) {
-    /* Estilos para pantallas pequeñas */
+@media (min-width: 992px) and (max-width: 1679px) {
+    /* Estilos para pantallas estandar */
+    .start-now {
+        height: 667px;
+        margin-top: 80px;
+    }
 
-}
+    .start-now-left-title {
+        width: 47%;
+        height: 100%;
+        padding-left: 20%;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
 
-@media (min-width: 1440px) and (max-width: 1679px) {
-    /* Estilos para pantallas medianas */
+    .start-now-right-title {
+        width: 54%;
+        height: 100%;
+        padding-left: 27%;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
 
+    .what-users-think {
+        height: 562px;
+        margin-top: 50px;
+    }
+
+    p.what-users-think-title-01-text {
+        font-size: 73px;
+    }
+
+    .what-users-think-title-02 {
+        margin-top: -8px;
+    }
+
+    p.what-users-think-title-02-text {
+        font-size: 40px;
+    }
+
+    .what-users-think-card-container {
+        margin-top: 30px;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+
+    .what-users-think-card {
+        width: 33.33%;
+        height: 200px;
+    }
+
+    .what-users-think-card-icon {
+        width: 100%;
+        height: 163px;
+    }
+
+    .what-users-think-card-title {
+        margin-top: 10px;
+    }
+
+    p.what-users-think-card-title-text {
+        font-size: 22px;
+    }
+
+    .what-users-think-card-valoration {
+        margin-top: 12px;
+        height: 22px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .what-users-think-card-description-icon-01 {
+        margin-left: -99px;
+        margin-top: 17px;
+        width: 100%;
+        height: 14px;
+    }
+
+    .what-users-think-card-description-text-container {
+        width: 100%;
+        margin-left: 1px;
+        padding-left: 122px;
+        padding-right: 122px;
+    }
+
+    p.what-users-think-card-description-text {
+        font-size: 13px;
+        line-height: 26px;
+    }
+
+    .what-users-think-card-description-icon-02 {
+        margin-left: 99px;
+        margin-top: -20px;
+        width: 100%;
+        height: 14px;
+    }
+
+    .arrow-container {
+        margin-top: 53px;
+    }
+
+    .arrow-container-01 {
+        margin-right: 182px;
+        width: 79px;
+        height: 45px;
+    }
+
+    .arrow-container-02 {
+    width: 79px;
+    height: 45px;
+    }
 }
 
 @media (min-width: 1680px) {
     /* Estilos para pantallas grandes */
+    .start-now {
+        height: 667px;
+        margin-top: 80px;
+    }
 
+    .start-now-left-title {
+        width: 47%;
+        height: 100%;
+        padding-left: 20%;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .start-now-right-title {
+        width: 54%;
+        height: 100%;
+        padding-left: 27%;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .what-users-think {
+        height: 562px;
+        margin-top: 50px;
+    }
+
+    p.what-users-think-title-01-text {
+        font-size: 73px;
+    }
+
+    .what-users-think-title-02 {
+        margin-top: -8px;
+    }
+
+    p.what-users-think-title-02-text {
+        font-size: 40px;
+    }
+
+    .what-users-think-card-container {
+        margin-top: 30px;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+
+    .what-users-think-card {
+        width: 33.33%;
+        height: 200px;
+    }
+
+    .what-users-think-card-icon {
+        width: 100%;
+        height: 163px;
+    }
+
+    .what-users-think-card-title {
+        margin-top: 10px;
+    }
+
+    p.what-users-think-card-title-text {
+        font-size: 22px;
+    }
+
+    .what-users-think-card-valoration {
+        margin-top: 12px;
+        height: 22px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .what-users-think-card-description-icon-01 {
+        margin-left: -99px;
+        margin-top: 17px;
+        width: 100%;
+        height: 14px;
+    }
+
+    .what-users-think-card-description-text-container {
+        width: 100%;
+        margin-left: 1px;
+        padding-left: 122px;
+        padding-right: 122px;
+    }
+
+    p.what-users-think-card-description-text {
+        font-size: 13px;
+        line-height: 26px;
+    }
+
+    .what-users-think-card-description-icon-02 {
+        margin-left: 99px;
+        margin-top: -20px;
+        width: 100%;
+        height: 14px;
+    }
+
+    .arrow-container {
+        margin-top: 53px;
+    }
+
+    .arrow-container-01 {
+        margin-right: 182px;
+        width: 79px;
+        height: 45px;
+    }
+
+    .arrow-container-02 {
+    width: 79px;
+    height: 45px;
+    }
 }

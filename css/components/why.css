@@ -133,25 +133,103 @@ p.why-us-right-text-02 {
 @media (min-width: 768px) and (max-width: 991px) {
     /* Estilos para smartphones grandes */
 
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    /* Estilos para tablets */
-
+    .why-us {
+        height: 500px;
+        padding-left: 2%;
+    }
+    .why-us-left {
+        width: 50%;
+        height: 383px;
+    }
+    .why-us-right {
+        width: 50%;
+        padding-left: 6%;
+    }
+    .why-us-right-title {
+        margin-top: 80px;
+    }
+    p.why-us-right-text-01 {
+        font-size: 31px;
+    }
+    p.why-us-right-text-02 {
+        font-size: 31px;
+        margin-left: 6px;
+    }
+    .why-us-right-description {
+        margin-top: 16px;
+        width: 50%;
+    }
+    p.why-us-right-description-text {
+        font-size: 8px;
+        line-height: 15px;
+    }
 }
 
 /* Pantallas de escritorio */
-@media (min-width: 1200px) and (max-width: 1439px) {
-    /* Estilos para pantallas pequeñas */
-
-}
-
-@media (min-width: 1440px) and (max-width: 1679px) {
-    /* Estilos para pantallas medianas */
-
+@media (min-width: 992px) and (max-width: 1679px) {
+    /* Estilos para pantallas estandar */
+    .why-us {
+        height: 843px;
+        padding-left: 2%;
+    }
+    .why-us-left {
+        width: 50%;
+        height: 770px;
+    }
+    .why-us-right {
+        width: 50%;
+        padding-left: 6%;
+    }
+    .why-us-right-title {
+        margin-top: 100px;
+    }
+    p.why-us-right-text-01 {
+        font-size: 63px;
+    }
+    p.why-us-right-text-02 {
+        font-size: 63px;
+        margin-left: 10px;
+    }
+    .why-us-right-description {
+        margin-top: 28px;
+        width: 54%;
+    }
+    p.why-us-right-description-text {
+        font-size: 13px;
+        line-height: 24px;
+    }
 }
 
 @media (min-width: 1680px) {
     /* Estilos para pantallas grandes */
-
+    .why-us {
+        height: 843px;
+        padding-left: 2%;
+    }
+    .why-us-left {
+        width: 50%;
+        height: 770px;
+    }
+    .why-us-right {
+        width: 50%;
+        padding-left: 6%;
+    }
+    .why-us-right-title {
+        margin-top: 100px;
+    }
+    p.why-us-right-text-01 {
+        font-size: 63px;
+    }
+    p.why-us-right-text-02 {
+        font-size: 63px;
+        margin-left: 10px;
+    }
+    .why-us-right-description {
+        margin-top: 28px;
+        width: 54%;
+    }
+    p.why-us-right-description-text {
+        font-size: 13px;
+        line-height: 24px;
+    }
 }

@@ -86,26 +86,47 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     /* Estilos para smartphones grandes */
+    .top-bar-container {
+        height: 67px;
+    }
 
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    /* Estilos para tablets */
-
+    .top-bar-container-center {
+        padding-top: 12px
+    }
+    .top-container-right {
+        padding-top: 19px;
+    }
 }
 
 /* Pantallas de escritorio */
-@media (min-width: 1200px) and (max-width: 1439px) {
-    /* Estilos para pantallas pequeñas */
+@media (min-width: 992px) and (max-width: 1679px) {
+    /* Estilos para pantallas estandar */
 
-}
+    .top-bar-container {
+        height: 85px;
+    }
 
-@media (min-width: 1440px) and (max-width: 1679px) {
-    /* Estilos para pantallas medianas */
+    .top-bar-container-center {
+        padding-top: 20px;
+    }
 
+    .top-container-right {
+        padding-top: 30px;
+    }
 }
 
 @media (min-width: 1680px) {
     /* Estilos para pantallas grandes */
 
+    .top-bar-container {
+        height: 85px;
+    }
+
+    .top-bar-container-center {
+        padding-top: 20px;
+    }
+
+    .top-container-right {
+        padding-top: 30px;
+    }
 }

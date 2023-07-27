@@ -215,40 +215,122 @@ p.middle-content-industry-02-about-text {
 @media (min-width: 768px) and (max-width: 991px) {
 
     /* Estilos para smartphones grandes */
-    p.middle-content-industry-01-accept-text {
-        font-size: 57px;
+    .middle-content {
+        height: 276px;
+        margin-top: 48px;
     }
-}
 
-@media (min-width: 992px) and (max-width: 1199px) {
-
-    /* Estilos para tablets */
     p.middle-content-industry-01-accept-text {
-        font-size: 67px;
+        font-size: 40px;
+    }
+
+    p.middle-content-industry-01-new-text {
+        font-size: 37px;
+    }
+
+    p.middle-content-industry-01-skills-text {
+        font-size: 10px;
+    }
+
+    p.middle-content-industry-01-discover-text {
+        font-size: 10px;
+    }
+
+    p.middle-content-industry-02-explore-text {
+        font-size: 28px;
+    }
+
+    p.middle-content-industry-02-about-text {
+        font-size: 28px;
+    }
+    .middle-content-industry-01-discover-square {
+        height: 5px;
+        width: 5px;
+
+    }
+    .middle-content-industry-02-arrow {
+        width: 20px;
+        height: 30px;
     }
 }
 
 /* Pantallas de escritorio */
-@media (min-width: 1200px) and (max-width: 1439px) {
-
-    /* Estilos para pantallas pequeñas */
-    p.middle-content-industry-01-accept-text {
-        font-size: 77px;
+@media (min-width: 992px) and (max-width: 1679px) {
+    /* Estilos para pantallas estandar */
+    .middle-content {
+        height: 350px;
+        margin-top: 80px;
     }
-}
 
-@media (min-width: 1440px) and (max-width: 1679px) {
-
-    /* Estilos para pantallas medianas */
     p.middle-content-industry-01-accept-text {
-        font-size: 87px;
+        font-size: 50px;
+    }
+
+    p.middle-content-industry-01-new-text {
+        font-size: 50px;
+    }
+
+    p.middle-content-industry-01-skills-text {
+        font-size: 12px;
+    }
+
+    p.middle-content-industry-01-discover-text {
+        font-size: 12px;
+    }
+
+    p.middle-content-industry-02-explore-text {
+        font-size: 32px;
+    }
+
+    p.middle-content-industry-02-about-text {
+        font-size: 32px;
+    }
+    .middle-content-industry-01-discover-square {
+        height: 6px;
+        width: 6px;
+    }
+    .middle-content-industry-02-arrow {
+        width: 25px;
+        height: 35px;
     }
 }
 
 @media (min-width: 1680px) {
-
     /* Estilos para pantallas grandes */
+    .middle-content {
+        height: 350px;
+        margin-top: 80px;
+    }
+
     p.middle-content-industry-01-accept-text {
-        font-size: 87px;
+        font-size: 50px;
+    }
+
+    p.middle-content-industry-01-new-text {
+        font-size: 50px;
+    }
+
+    p.middle-content-industry-01-skills-text {
+        font-size: 12px;
+    }
+
+    p.middle-content-industry-01-discover-text {
+        font-size: 12px;
+    }
+
+    p.middle-content-industry-02-explore-text {
+        font-size: 32px;
+    }
+
+    p.middle-content-industry-02-about-text {
+        font-size: 32px;
+    }
+    .middle-content-industry-01-discover-square {
+        height: 6px;
+        width: 6px;
+    }
+    .middle-content-industry-02-arrow {
+        width: 25px;
+        height: 35px;
     }
 }
