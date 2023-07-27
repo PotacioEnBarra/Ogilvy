@@ -231,6 +231,15 @@ a.btn-primary-hamburger {
     .btn-find-course-card-course-container.btn-why {
         margin-top: 15px;
     }
+    .btn-find-course-card-course-container.form {
+        margin-top: 1%;
+        width: 37%;
+    }
+    a.btn-find-course-card-course.form {
+        width: 100%;
+        height: 22px;
+        padding-top: 8px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {

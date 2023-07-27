@@ -66,7 +66,7 @@ p.what-users-think-card-title-text {
 }
 
 .what-users-think-card {
-    text-align: center;
+    /* text-align: center; */
     width: 20%;
     height: 468px;
 }
@@ -144,6 +144,7 @@ p.what-users-think-title-02-text {
 
 .what-users-think-card-title {
     margin-top: 14px;
+    text-align: center;
 }
 
 .what-users-think-card-description {
@@ -155,6 +156,8 @@ p.what-users-think-title-02-text {
 .what-users-think-card-description-icon-01 {
     margin-left: -188px;
     margin-top: 10px;
+    width: 100%;
+    height: 6px;
 }
 
 .what-users-think-card-description-icon-02 {
@@ -165,6 +168,7 @@ p.what-users-think-title-02-text {
 .what-users-think-card-description-text-container {
     width: 59%;
     margin-left: 56px;
+    text-align: justify;
 }
 
 .arrow-container {
@@ -175,7 +179,13 @@ p.what-users-think-title-02-text {
 }
 
 .arrow-container-01 {
-    margin-right: 131px;
+    margin-right: 42px;
+    width: 10px;
+    height: 10px;
+}
+.arrow-container-02 {
+    width: 10px;
+    height: 10px;
 }
 
 .what-users-think {
@@ -303,7 +313,7 @@ p.what-users-think-title-02-text {
     }
 
     .what-users-think {
-        height: 800px;
+        height: 252px;
     }
 
     p.what-users-think-title-01-text {
@@ -330,38 +340,56 @@ p.what-users-think-title-02-text {
     }
 
     .what-users-think-card-icon {
-        width: 60px;
+        width: 100%;
         height: 60px;
     }
 
     .what-users-think-card-title {
-        margin-top: 14px;
+        margin-top: 7px;
     }
 
     p.what-users-think-card-title-text {
-        font-size: 18px;
+        font-size: 7px;
     }
 
     .what-users-think-card-valoration {
-        margin-top: 30px;
+        margin-top: 0px;
         height: 30px;
-        width: 30px;
+        width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
     }
     .what-users-think-card-description-icon-01 {
-        margin-left: -188px;
-        margin-top: 10px;
+        margin-left: -41px;
+        margin-top: -1px;
+        width: 100%;
+        height: 6px;
     }
     .what-users-think-card-description-text-container {
-        width: 59%;
-        margin-left: 56px;
+        width: 100%;
+        margin-left: 1px;
     }
     p.what-users-think-card-description-text {
-        font-size: 12px;
-        line-height: 21px;
+        font-size: 5px;
+        line-height: 8px;
     }
     .what-users-think-card-description-icon-02 {
-        margin-left: 165px;
-        margin-top: -11px;
+        margin-left: 37px;
+        margin-top: -4px;
+        width: 100%;
+        height: 6px;
+    }
+    .arrow-container {
+        margin-top: 7px;
+    }
+    .arrow-container-01 {
+        margin-right: 42px;
+        width: 20px;
+        height: 10px;
+    }
+    .arrow-container-02 {
+        width: 20px;
+        height: 10px;
     }
 }
 
