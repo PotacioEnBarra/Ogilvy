@@ -71,6 +71,7 @@ footer.footer-container {
     padding-top: 242px;
     padding-left: 58px;
     background-color: #976ece;
+    overflow: hidden;
 }
 
 p.footer-container-title-text {

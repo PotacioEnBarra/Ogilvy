@@ -4,7 +4,6 @@
 }
 
 .find-course-title-bar {
-    margin-top: 90px;
     height: 118px;
     display: flex;
     align-items: center;
@@ -33,9 +32,6 @@ p.find-course-title-bar-industry-02-text {
     margin-top: 36px;
 }
 
-.find-course-title-bar-industry-03 {
-    margin-top: 54px;
-}
 
 .find-course-title-bar-industry-03-square {
     height: 12px;
@@ -64,6 +60,7 @@ p.find-course-title-bar-industry-03-text-2022 {
     width: 53%;
     justify-content: flex-end;
     padding-right: 44px;
+    padding-top: 25px;
 }
 
 .find-course-more {
@@ -80,4 +77,106 @@ p.find-course-more-title-text {
 
 .find-course-more-title {
     margin-right: 83px;
+}
+.find-course-more-arrow {
+    width: 24px;
+    height: 12px;
+}
+.right-arrow {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../../assets/images/right-arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+/* Dispositivos móviles */
+@media (max-width: 480px) {
+
+    /* Estilos para smartphones pequeños */
+
+    .find-course {
+        height: 231px;
+    }
+    p.find-course-title-bar-industry-01-text {
+        font-size: 26px;
+    }
+    p.find-course-title-bar-industry-02-text{
+        font-size: 10px;
+    }
+    p.find-course-title-bar-industry-03-text{
+        font-size: 4px;
+    }
+    p.find-course-title-bar-industry-03-text-2022{
+        font-size: 9px;
+    }
+    p.find-course-more-title-text{
+        font-size: 6px;
+    }
+    .find-course-title-bar {
+        height: 59px;
+    }
+    .find-course-title-bar-industry-01 {
+        margin-left: 10px;
+        width: 16%;
+    }
+    .find-course-title-bar-industry-02 {
+        width: 16%;
+        margin-left: 2px;
+        margin-top: 11px;
+    }
+    .find-course-title-bar-industry-03 {
+        width: 65%;
+        padding-right: 14px;
+        padding-top: 25px;
+    }
+    .find-course-title-bar-industry-03-square {
+        height: 4px;
+        width: 4px;
+        margin-right: 6px;
+        margin-top: 0px;
+    }
+    .find-course-more {
+        margin-top: 17px;
+    }
+    .find-course-more-title {
+        margin-right: 23px;
+    }
+    .find-course-more-arrow {
+        width: 22px;
+        height: 9px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Estilos para smartphones estándar */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para smartphones grandes */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Estilos para tablets */
+
+}
+
+/* Pantallas de escritorio */
+@media (min-width: 1200px) and (max-width: 1439px) {
+    /* Estilos para pantallas pequeñas */
+
+}
+
+@media (min-width: 1440px) and (max-width: 1679px) {
+    /* Estilos para pantallas medianas */
+
+}
+
+@media (min-width: 1680px) {
+    /* Estilos para pantallas grandes */
+
 }

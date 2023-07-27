@@ -29,6 +29,7 @@
     height: 1123px;
     width: 100%;
     margin-top: 4%;
+    overflow: hidden;
 }
 
 p.form-suscribe-title-text {

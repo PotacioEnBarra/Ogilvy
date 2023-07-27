@@ -8,6 +8,7 @@
     background-size: contain;
     background-position: center;
     position: relative;
+    overflow: hidden;
 }
 
 .about-us-left-title {
@@ -33,7 +34,10 @@ p.about-us-left-title-text-02 {
     width: 60%;
 }
 
-.about-us-right {width: 23%;height: 100%;}
+.about-us-right {
+    width: 23%;
+    height: 100%;
+}
 
 .about-us-left-description {
     margin-left: 181px;
@@ -94,4 +98,99 @@ p.about-us-left-container-0-text {
     background-size: contain;
     background-position: center;
     position: relative;
+}
+
+/* Dispositivos móviles */
+@media (max-width: 480px) {
+
+    /* Estilos para smartphones pequeños */
+
+    .about-us {
+        height: 285px;
+        margin-top: 0px;
+    }
+
+    .about-us-left-title {
+        margin-top: 82px;
+        margin-left: 38px;
+    }
+
+    p.about-us-left-title-text-01 {
+        font-size: 16px;
+    }
+
+    p.about-us-left-title-text-02 {
+        font-size: 16px;
+        margin-left: 4px;
+    }
+
+    .about-us-left-description {
+        margin-left: 38px;
+        width: 59%;
+        margin-top: 8px;
+    }
+
+    p.about-us-left-description-text {
+        font-size: 5px;
+        line-height: 9px;
+    }
+
+    .about-us-left-container {
+        margin-left: 38px;
+        margin-top: 12px;
+        padding-left: 0px;
+    }
+
+    .about-us-left-container-up {
+        width: 69%;
+    }
+
+    .about-us-left-container-0-square {
+        width: 3px;
+        height: 3px;
+        background-color: #aa84f9;
+    }
+    p.about-us-left-container-0-text {
+        font-size: 4px;
+        margin-left: 3px;
+    }
+    .about-us-left-container-down {
+        width: 69%;
+        margin-top: 14px;
+    }
+    .about-us-right {
+        width: 29%;
+        height: 267px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Estilos para smartphones estándar */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para smartphones grandes */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Estilos para tablets */
+
+}
+
+/* Pantallas de escritorio */
+@media (min-width: 1200px) and (max-width: 1439px) {
+    /* Estilos para pantallas pequeñas */
+
+}
+
+@media (min-width: 1440px) and (max-width: 1679px) {
+    /* Estilos para pantallas medianas */
+
+}
+
+@media (min-width: 1680px) {
+    /* Estilos para pantallas grandes */
+
 }
