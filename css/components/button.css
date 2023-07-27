@@ -9,8 +9,8 @@ a.btn-primary-header {
 a.btn-primary-signin {
     padding-top: 1%;
     text-align: center;
-    width: 43%;
-    height: 52%;
+    width: 32%;
+    height: 38%;
     background-color: #ffffff;
     text-decoration: none;
 }
@@ -245,6 +245,73 @@ a.btn-primary-hamburger {
 @media (min-width: 481px) and (max-width: 767px) {
 
     /* Estilos para smartphones estándar */
+
+    /* Estilos para smartphones pequeños */
+    .btn-primary-header-text {
+        font-size: 8px;
+    }
+
+    .btn-primary-signin-text {
+        font-size: 8px;
+    }
+
+    p.btn-find-course-card-course-text {
+        font-size: 6px;
+    }
+
+    p.btn-carousel-right-text {
+        font-size: 6px;
+    }
+
+    p.btn-carousel-right-read-text {
+        font-size: 6px;
+    }
+
+    a.btn-carousel-right {
+        height: 19px;
+        width: 25%;
+        padding-top: 6px;
+    }
+
+    a.btn-carousel-right-read {
+        padding-left: 12px;
+        letter-spacing: 0px;
+        padding-top: 5px;
+    }
+
+    .btn-find-course-card-course-container {
+        margin-top: 11px;
+    }
+
+    a.btn-find-course-card-course {
+        width: 31%;
+        height: 18px;
+        padding-top: 5px;
+    }
+
+    .btn-find-course-card-course-container.btn-about {
+        justify-content: left;
+        margin-left: 55px;
+        margin-top: 20px;
+    }
+
+    .btn-find-course-card-course-container.btn-why {
+        margin-top: 15px;
+    }
+    .btn-find-course-card-course-container.form {
+        margin-top: 1%;
+        width: 37%;
+    }
+    a.btn-find-course-card-course.form {
+        width: 100%;
+        height: 22px;
+        padding-top: 8px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para smartphones grandes */
     .btn-primary-header-text {
         font-size: 11px;
     }
@@ -256,12 +323,7 @@ a.btn-primary-hamburger {
     a.btn-primary-signin {
         padding-top: 2%;
     }
-
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    /* Estilos para smartphones grandes */
-
+    
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

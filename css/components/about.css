@@ -106,7 +106,7 @@ p.about-us-left-container-0-text {
     /* Estilos para smartphones pequeños */
 
     .about-us {
-        height: 285px;
+        height: 357px;
         margin-top: 0px;
     }
 
@@ -159,14 +159,70 @@ p.about-us-left-container-0-text {
         margin-top: 14px;
     }
     .about-us-right {
-        width: 29%;
+        width: 26%;
         height: 267px;
     }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
     /* Estilos para smartphones estándar */
+    .about-us {
+        height: 557px;
+        margin-top: 9px;
+    }
 
+    .about-us-left-title {
+        margin-top: 152px;
+        margin-left: 81px;
+    }
+
+    p.about-us-left-title-text-01 {
+        font-size: 16px;
+    }
+
+    p.about-us-left-title-text-02 {
+        font-size: 16px;
+        margin-left: 4px;
+    }
+
+    .about-us-left-description {
+        margin-left: 81px;
+        width: 59%;
+        margin-top: 8px;
+    }
+
+    p.about-us-left-description-text {
+        font-size: 6px;
+        line-height: 10px;
+    }
+
+    .about-us-left-container {
+        margin-left: 81px;
+        margin-top: 12px;
+        padding-left: 0px;
+    }
+
+    .about-us-left-container-up {
+        width: 69%;
+    }
+
+    .about-us-left-container-0-square {
+        width: 3px;
+        height: 3px;
+        background-color: #aa84f9;
+    }
+    p.about-us-left-container-0-text {
+        font-size: 5px;
+        margin-left: 3px;
+    }
+    .about-us-left-container-down {
+        width: 69%;
+        margin-top: 14px;
+    }
+    .about-us-right {
+        width: 30%;
+        height: 370px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

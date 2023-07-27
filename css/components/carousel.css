@@ -91,8 +91,8 @@ p.carousel-left-text.industry-pro {
 }
 
 .carousel-left-text.industry-pro-container {
-    padding-left: 4px;
-    width: 84%;
+    padding-left: 5px;
+    width: 88%;
     overflow: hidden;
 }
 
@@ -185,6 +185,7 @@ p.carousel-right-text-description {
     height: 216px;
     padding-bottom: 60px;
     background-color: #151515;
+    overflow: hidden;
 }
 
 .slider-bottom-container {
@@ -385,6 +386,147 @@ p.slider-bottom-container-industry-02-text-02 {
 @media (min-width: 481px) and (max-width: 767px) {
     /* Estilos para smartphones estándar */
 
+    .slider {
+        height: 313px;
+    }
+
+    .carousel-center {
+        padding-top: 10px;
+    }
+
+    .carousel-right {
+        padding-top: 28px;
+    }
+
+    /* Estilos para smartphones pequeños */
+    p.slider-bottom-container-industry-01-text {
+        font-size: 16px;
+    }
+
+    p.slider-bottom-container-industry-02-text {
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+
+    p.slider-bottom-container-industry-02-text-01 {
+        font-size: 10px;
+    }
+
+    p.slider-bottom-container-industry-02-text-02 {
+        font-size: 10px;
+    }
+
+    p.carousel-left-text.industry-ui {
+        font-size: 61px;
+    }
+
+    p.carousel-left-text-purple {
+        font-size: 61px;
+    }
+
+    p.carousel-left-text.industry-beginner {
+        font-size: 20px;
+    }
+
+    p.carousel-left-text.industry-s {
+        font-size: 20px;
+    }
+
+    .carousel-left-text-square {
+        width: 6px;
+        height: 6px;
+    }
+
+    .carousel-left-text.industry-pro-container {
+        padding-left: 5px;
+        width: 88%;
+    }
+
+    p.carousel-left-text.industry-pro {
+        font-size: 7px;
+        line-height: 9px;
+    }
+
+    p.carousel-right-edition-text {
+        font-size: 8px;
+    }
+
+    p.carousel-right-edition-text-2022 {
+        font-size: 16px;
+    }
+
+    p.carousel-right-text-title {
+        font-size: 11px;
+    }
+
+    p.carousel-right-text-description {
+        font-size: 7px;
+        line-height: 11px;
+    }
+
+    .carousel-left-text-container-mc01 {
+        padding-top: 42px;
+        padding-left: 19px;
+    }
+
+    .carousel-left-text-container-mc02-1 {
+        height: 162px;
+        padding-top: 53px;
+        letter-spacing: 2px;
+    }
+
+    .carousel-left-text-container-mc03 {
+        padding-top: 84px;
+    }
+
+    .carousel-right-edition-container {
+        border: 1px solid #ffffff;
+        height: 50px;
+        padding: 8px 52px 18px 14px;
+    }
+
+    .carousel-right-container-text-title {
+        width: 79%;
+        padding-left: 11px;
+        padding-top: 40px;
+    }
+
+    .carousel-right-container-text-description {
+        padding-left: 11px;
+        padding-top: 6px;
+    }
+
+    .carousel-right-buttons {
+        padding-left: 11px;
+        padding-top: 14px;
+    }
+
+    p.btn-carousel-right-text {
+        font-size: 5px;
+    }
+
+    p.btn-carousel-right-read-text {
+        font-size: 5px;
+    }
+
+    a.btn-carousel-right {
+        height: 17px;
+        padding-top: 5px;
+    }
+
+    .slider-bottom {
+        padding-top: 2px;
+        height: 73px;
+        padding-bottom: 2px;
+    }
+
+    .slider-bottom-container-industry-02 {
+        padding-left: 1px;
+    }
+
+    .slider-bottom-container-industry-03 {
+        padding-left: 6px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

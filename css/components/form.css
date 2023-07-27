@@ -191,7 +191,69 @@ input.form-suscribe-input-message:focus {
 
 @media (min-width: 481px) and (max-width: 767px) {
     /* Estilos para smartphones estándar */
+    .form-suscribe {
+        height: 362px;
+        margin-top: 12%;
+    }
 
+    .form-suscribe-left {
+        width: 70%;
+        height: 100%;
+    }
+
+    .form-suscribe-right {
+        width: 39%;
+        padding-top: 54px;
+        margin-left: -78px;
+    }
+
+    p.form-suscribe-title-text {
+        font-size: 22px;
+    }
+
+    p.form-suscribe-subtitle-text {
+        font-size: 20px;
+    }
+
+    .form-suscribe-description {
+        width: 100%;
+    }
+
+    p.form-suscribe-description-text {
+        line-height: 12px;
+        letter-spacing: 0.9px;
+        font-size: 6px;
+    }
+    .form-suscribe-input {
+        height: 206px;
+        margin-top: 21px;
+    }
+    input.form-suscribe-input-name {
+        width: 95%;
+        height: 22px;
+        margin-bottom: 16px;
+        border: #9172d1 1px solid;
+        font-size: 7px;
+        padding: 3px 17px 3px 7px;
+    }
+    input.form-suscribe-input-mail {
+        width: 95%;
+        height: 22px;
+        margin-bottom: 16px;
+        background-color: transparent;
+        border: #9172d1 1px solid;
+        padding: 3px 17px 3px 9px;
+        font-size: 7px;
+    }
+    input.form-suscribe-input-message {
+        width: 95%;
+        height: 55px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        border: #9172d1 1px solid;
+        font-size: 7px;
+        padding: 9px 21px 38px 8px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

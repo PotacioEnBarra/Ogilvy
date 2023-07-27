@@ -98,7 +98,36 @@ p.why-us-right-text-02 {
 
 @media (min-width: 481px) and (max-width: 767px) {
     /* Estilos para smartphones estándar */
-
+    .why-us {
+        height: 385px;
+        padding-left: 2%;
+    }
+    .why-us-left {
+        width: 50%;
+        height: 275px;
+    }
+    .why-us-right {
+        width: 50%;
+        padding-left: 6%;
+    }
+    .why-us-right-title {
+        margin-top: 63px;
+    }
+    p.why-us-right-text-01 {
+        font-size: 16px;
+    }
+    p.why-us-right-text-02 {
+        font-size: 16px;
+        margin-left: 4px;
+    }
+    .why-us-right-description {
+        margin-top: 10px;
+        width: 55%;
+    }
+    p.why-us-right-description-text {
+        font-size: 6px;
+        line-height: 8px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

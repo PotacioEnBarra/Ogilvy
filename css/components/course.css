@@ -1,6 +1,7 @@
 .find-course {
     width: 100%;
     height: 727px;
+    overflow: hidden;
 }
 
 .find-course-title-bar {
@@ -153,6 +154,58 @@ p.find-course-more-title-text {
 @media (min-width: 481px) and (max-width: 767px) {
     /* Estilos para smartphones estándar */
 
+    .find-course {
+        height: 314px;
+        margin-top: 37px;
+    }
+    p.find-course-title-bar-industry-01-text {
+        font-size: 40px;
+    }
+    p.find-course-title-bar-industry-02-text{
+        font-size: 14px;
+    }
+    p.find-course-title-bar-industry-03-text{
+        font-size: 6px;
+    }
+    p.find-course-title-bar-industry-03-text-2022{
+        font-size: 12px;
+    }
+    p.find-course-more-title-text{
+        font-size: 8px;
+    }
+    .find-course-title-bar {
+        height: 63px;
+    }
+    .find-course-title-bar-industry-01 {
+        margin-left: 28px;
+        width: 16%;
+    }
+    .find-course-title-bar-industry-02 {
+        width: 16%;
+        margin-left: 3%;
+        margin-top: 17px;
+    }
+    .find-course-title-bar-industry-03 {
+        width: 65%;
+        padding-right: 25px;
+        padding-top: 25px;
+    }
+    .find-course-title-bar-industry-03-square {
+        height: 4px;
+        width: 4px;
+        margin-right: 7px;
+        margin-top: 2px;
+    }
+    .find-course-more {
+        margin-top: 34px;
+    }
+    .find-course-more-title {
+        margin-right: 23px;
+    }
+    .find-course-more-arrow {
+        width: 34px;
+        height: 12px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

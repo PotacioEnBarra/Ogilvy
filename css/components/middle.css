@@ -30,7 +30,7 @@ p.middle-content-industry-01-skills-text {
 .middle-content-industry-01-discover {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     transform: rotate(270deg);
     align-items: center;
 }
@@ -38,7 +38,7 @@ p.middle-content-industry-01-skills-text {
 .middle-content-industry-01-skills {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     transform: rotate(90deg);
     align-items: center;
 }
@@ -173,8 +173,42 @@ p.middle-content-industry-02-about-text {
 @media (min-width: 481px) and (max-width: 767px) {
 
     /* Estilos para smartphones estándar */
+    .middle-content {
+        height: 208px;
+        margin-top: 27px;
+    }
+
     p.middle-content-industry-01-accept-text {
-        font-size: 47px;
+        font-size: 27px;
+    }
+
+    p.middle-content-industry-01-new-text {
+        font-size: 27px;
+    }
+
+    p.middle-content-industry-01-skills-text {
+        font-size: 7px;
+    }
+
+    p.middle-content-industry-01-discover-text {
+        font-size: 7px;
+    }
+
+    p.middle-content-industry-02-explore-text {
+        font-size: 18px;
+    }
+
+    p.middle-content-industry-02-about-text {
+        font-size: 18px;
+    }
+    .middle-content-industry-01-discover-square {
+        height: 5px;
+        width: 5px;
+
+    }
+    .middle-content-industry-02-arrow {
+        width: 20px;
+        height: 30px;
     }
 }
 
